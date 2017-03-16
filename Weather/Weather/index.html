@@ -1,0 +1,78 @@
+﻿<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WeatherForcast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="WeatherForcast" />
+    <script src="JS/WeatherPage_V1.1.js"></script>
+    <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Custom Theme files -->
+    <link href="CSS/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+</head>
+<body>
+    <!--main-->
+    <div class="main effect2" style="font-family:'Microsoft YaHei'">
+        <div class="climate">
+            <div class="sunny">
+                <div>
+                    <img src="images/bigsun.png" alt="" id="nowWeatherPic" style="margin-left:15%">
+                    <span style="color: lightcoral; font-size: 20px; margin-left: 5%;" id="nowWeatherText">晴</span>
+                </div>
+                <h3 id="locationName">Today Weather </h3>
+                <h2 id="nowTmp">32°</h2>
+            </div>
+            <div class="west-chance" style="margin-left:20%">
+                <div class="west-grids">
+                    <div class="west-left">
+                        <img src="images/pic2.png" alt="">
+                    </div>
+                    <div class="west-right">
+                        <h3 id="fengLi">14</h3>
+                        <ul>
+                            <li>KM/h</li>
+                            <li id="fengXiang">West</li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="west-grids">
+                    <div class="west-left">
+                        <img src="images/umbre.png" alt="">
+                    </div>
+                    <div class="west-right">
+                        <h4 id="shiDu">12%<span>湿度</span></h4>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="shades">
+                <h3 style="margin:0% 25%" id="minTemp">26° <span>MIN</span></h3>
+                <h3 id="maxTemp">34°<span>MAX</span></h3>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="time-bg">
+            <h3>Timer</h3>
+            <p id="demo">12:05:07 PM</p>
+
+            <script>
+                var myVar = setInterval(function () { myTimer() }, 1000);
+
+                function myTimer() {
+                    var d = new Date();
+                    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>

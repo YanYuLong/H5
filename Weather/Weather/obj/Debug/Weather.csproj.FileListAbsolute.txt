@@ -1,0 +1,16 @@
+C:\Users\yulon_000\Desktop\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+C:\Users\yulon_000\Desktop\Weather\Weather\bin\Weather.dll.config
+C:\Users\yulon_000\Desktop\Weather\Weather\bin\Weather.dll
+C:\Users\yulon_000\Desktop\Weather\Weather\bin\Weather.pdb
+C:\Users\yulon_000\Desktop\Weather\Weather\bin\GetWeather.dll
+C:\Users\yulon_000\Desktop\Weather\Weather\bin\GetWeather.pdb
+C:\Users\yulon_000\Desktop\Weather\Weather\obj\Debug\Weather.dll
+C:\Users\yulon_000\Desktop\Weather\Weather\obj\Debug\Weather.pdb
+C:\Users\yulon_000\Desktop\编程文件\Weather\Weather\obj\Debug\Weather.csprojResolveAssemblyReference.cache
+C:\Users\yulon_000\Desktop\编程文件\Weather\Weather\obj\Debug\Weather.dll
+C:\Users\yulon_000\Desktop\编程文件\Weather\Weather\bin\Weather.dll.config
+C:\Users\yulon_000\Desktop\编程文件\Weather\Weather\bin\Weather.dll
+C:\Users\yulon_000\Desktop\编程文件\Weather\Weather\bin\Weather.pdb
+C:\Users\yulon_000\Desktop\编程文件\Weather\Weather\bin\GetWeather.dll
+C:\Users\yulon_000\Desktop\编程文件\Weather\Weather\bin\GetWeather.pdb
+C:\Users\yulon_000\Desktop\编程文件\Weather\Weather\obj\Debug\Weather.pdb

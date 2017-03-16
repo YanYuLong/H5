@@ -1,0 +1,86 @@
+﻿body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    color:white;
+    background-color:#014050;
+}
+/*横屏*/
+@media not screen and (orientation:portrait) {
+    #Div {
+        width: 80%;
+        height: 80%;
+        font-family: 微软雅黑;
+        border-radius: 20px;
+        margin: auto;
+        text-align: center;
+        padding:15px;
+        vertical-align: middle;
+        display: block;
+    }
+
+    #container_div div {
+        line-height: 100%;
+    }
+
+    #UAInfo {
+        width: 35%;
+        height: 100%;
+        float: left;
+    }
+
+    #UAInfo div {
+        width: 100%;
+        height: 30%;
+        margin-bottom:5%;
+        float: left;
+    }
+
+    #Weather {
+        width: 60%;
+        margin-left:5%;
+        height: 100%;
+        float: left;
+        font-size:1.0em;
+        overflow-y:visible;
+    }
+}
+
+
+/*竖屏*/
+@media screen and (orientation:portrait) {
+    #Div {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        overflow-y: scroll;
+        vertical-align: middle;
+        color: #FFFFCC;
+        display: block;
+        padding-top: 0px;
+        font-family: 微软雅黑;
+        font-size: 1em;
+        color: white;
+    }
+
+    #container_div div {
+        line-height: 100%;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    #Title {
+    }
+
+    #ClientUA {
+    }
+
+    #ClientIP {
+    }
+
+    #Weather {
+        overflow:scroll;
+    }
+}
